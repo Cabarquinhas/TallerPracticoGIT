@@ -3,3 +3,39 @@
     Nombre: Alejandro Agudelo Cabarcas
     Fecha: 05/06/2024
     Título:  Taller práctico de git
+
+CAPTURAS
+
+1.- Le damos al "+" para crear un repositorio.
+
+2.- Le damos a la opcion "New repository".
+
+3.- 
+3.1.- Ponemos el nombre del repositorio.
+3.2.- Añadimos la opcion del README.
+
+4.- Le damos a la opcion "Create Repository" para crear el repositorio.
+
+5.- 
+5.1.- Le damos a la opcion "Code".
+5.2.- Copiamos el link de nuestro repositorio ya creado.
+
+TERMINAL GIT 6.- Ponemos el comando "git clone (Link copiado del punto 5.2)", para clonar el repositorio recien creado en nuestro pc.
+
+TERMIANL GIT 7.-
+7.1.- Ponemos el comando "cd (Nombre de repositorio del punto 3.1)", para seleccionar nuestro repositorio y empezar a trabajar en el.
+7.2.- Ponemos el comando "git checkout -b ("Nombre de la rama a crear")", creamos una rama para empezar a trabajar adentro de ella.
+7.3.- Ponemos el comando "git add .", ponemos en modo de carga todos los datos que ya tengamos disponibles y que queramos subir en ese momento.
+7.4.- Ponemos el comando "git commit -m ("Mensaje")", agregamos un mensaje a mostrar al momento de subir los datos.
+7.5.- Ponemos el comando "git push origin +(Nombre de la rama del punto 7.2)", con esto ya enviamos los datos al GitHub.
+
+8.- Le damos en la opcion "Compare & pull request", esto para comparar lo datos obtenidos.
+
+9.- Le damos en la opcion "Create pull request", para crear una nueva consulta y empujar lo datos.
+
+10.- Le damos en la opcion "Merge pull request", mezclamos lo datos/consulta ya obtenido del punto 9 previamente.
+
+11.- Le damos en la opcion "Confirm merger", confirmamos la mezclacion de las consultas.
+
+12.- Observamos como ya aparecen los datos de nuestros archivo creado en nuestro pc en el GitHub.
+
